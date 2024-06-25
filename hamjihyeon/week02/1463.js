@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync("hamjihyeon/week02/test.txt").toString().trim().trim('\n');
+const input = fs.readFileSync("/dev/stdin").toString().trim().trim('\n');
 const n = parseInt(input);
 
 function makeOne(n) {
