@@ -114,6 +114,14 @@ console.log(solution(input));
 | | | [징검다리 건너기](https://www.acmicpc.net/problem/21317) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 
 
+
+
+<!-- problem table template
+
+|| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
+
+ -->
+
 ## 참여자
 
 <table>
@@ -152,11 +160,3 @@ console.log(solution(input));
         </td>
     </tr>
 </table>
-
-
-
-<!-- problem table template
-
-|| 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
-
- -->
