@@ -112,6 +112,11 @@ console.log(solution(input));
 | | | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [포도주 시식](https://www.acmicpc.net/problem/2156) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [징검다리 건너기](https://www.acmicpc.net/problem/21317) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
+| **week03**| 이분 탐색 |
+| | | [수 찾기](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> |
+| | | [과자 나눠주기](https://www.acmicpc.net/problem/16401) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [나무 자르기](https://www.acmicpc.net/problem/2805) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [용액](https://www.acmicpc.net/problem/2467) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> |
 
 
 
