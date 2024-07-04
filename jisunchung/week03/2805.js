@@ -8,7 +8,7 @@ const N = Number(input[0].split(" ")[0]);
 const M = Number(input[0].split(" ")[1]);
 const arr = input[1].split(" ").map(Number);
 
-let start = 1;
+let start = 0;
 let end = Math.max(...arr);
 
 let result = 0;
