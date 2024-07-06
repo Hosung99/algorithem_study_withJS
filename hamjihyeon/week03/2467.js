@@ -24,4 +24,4 @@ function water() {
   }
   return result.join(' ');
 }
-console.log(water());;
+console.log(water());
