@@ -116,7 +116,7 @@ console.log(solution(input));
 | | | [수 찾기](https://www.acmicpc.net/problem/1920) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> |
 | | | [과자 나눠주기](https://www.acmicpc.net/problem/16401) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [나무 자르기](https://www.acmicpc.net/problem/2805) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
-| | | [용액](https://www.acmicpc.net/problem/2467) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> |
+| | | [용액](https://www.acmicpc.net/problem/2467) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 
 
 
