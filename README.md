@@ -117,7 +117,11 @@ console.log(solution(input));
 | | | [과자 나눠주기](https://www.acmicpc.net/problem/16401) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [나무 자르기](https://www.acmicpc.net/problem/2805) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [용액](https://www.acmicpc.net/problem/2467) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
-
+| **week04**| 백트래킹 |
+| | | [N과 M (1)](https://www.acmicpc.net/problem/15649) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> |
+| | | [N과 M (12)](https://www.acmicpc.net/problem/15666) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [암호 만들기](https://www.acmicpc.net/problem/1759) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| | | [비숍](https://www.acmicpc.net/problem/1799) | <img src="https://static.solved.ac/tier_small/15.svg" height="25" align="center"/> |
 
 
 
