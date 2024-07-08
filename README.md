@@ -121,6 +121,7 @@ console.log(solution(input));
 
 
 
+
 <!-- problem table template
 
 || 24.00.00 (❓) | [❓](https://www.acmicpc.net/problem/❓) | <img src="https://static.solved.ac/tier_small/❓.svg" height="25" align="center"/> | - |
