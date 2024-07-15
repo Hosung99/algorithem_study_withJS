@@ -125,7 +125,7 @@ console.log(solution(input));
 | **week05**| BFS |
 | | | [그림](https://www.acmicpc.net/problem/1926) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> |
-| | | [안전 영역](https://www.acmicpc.net/problem/2468) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| | | [안전 영역](https://www.acmicpc.net/problem/2468) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [텀 프로젝트](https://www.acmicpc.net/problem/9466) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> |
 
 
