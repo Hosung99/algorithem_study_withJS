@@ -122,6 +122,12 @@ console.log(solution(input));
 | | | [N과 M (12)](https://www.acmicpc.net/problem/15666) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [암호 만들기](https://www.acmicpc.net/problem/1759) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 | | | [비숍](https://www.acmicpc.net/problem/1799) | <img src="https://static.solved.ac/tier_small/15.svg" height="25" align="center"/> |
+| **week05**| BFS |
+| | | [그림](https://www.acmicpc.net/problem/1926) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
+| | | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> |
+| | | [안전 영역](https://www.acmicpc.net/problem/2468) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| | | [텀 프로젝트](https://www.acmicpc.net/problem/9466) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> |
+
 
 
 
