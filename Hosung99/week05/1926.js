@@ -14,10 +14,10 @@ function setInput() {
   N = input[0][0];
   M = input[0][1];
   input.shift();
-  for (let y = 0; y < N; y++) {
-    input[y] = input[y].split(" ").map(Number);
-    for (let x = 0; x < M; x++) {
-      arr[y][x] = input[y][x];
+  for (let i = 0; i < N; i++) {
+    input[i] = input[i].split(" ").map(Number);
+    for (let j = 0; j < M; j++) {
+      arr[i][j] = input[i][j];
     }
   }
 }
