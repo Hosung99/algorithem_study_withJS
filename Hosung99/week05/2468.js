@@ -50,7 +50,7 @@ function bfs(Y, X) {
   stack.push({ y: Y, x: X });
   visited[Y][X] = true;
   while (stack.length) {
-    let curr = stack.pop();
+    let curr = stack.shift();
     for (let dir = 0; dir < 4; dir++) {
       let curX = curr.x + dx[dir];
       let curY = curr.y + dy[dir];
