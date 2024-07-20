@@ -3,7 +3,7 @@ const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 let N,
   M,
   queue = [];
-let arr = Array.from({ length: 1001 }, () => Array(1001).fill(-1));
+let board = Array.from({ length: 1001 }, () => Array(1001).fill(-1));
 let visited = Array.from({ length: 1001 }, () =>
   Array.from({ length: 1001 }, () => Array(2).fill(0))
 );
@@ -17,7 +17,7 @@ function setInput() {
   input.shift();
   for (let i = 1; i <= N; i++) {
     for (let j = 1; j <= M; j++) {
-      arr[i][j] = +input[i - 1][j - 1];
+      board[i][j] = +input[i - 1][j - 1];
     }
   }
 }
@@ -42,13 +42,13 @@ function bfs(Y, X) {
       const curX = curr.x + dx[dir];
       const curY = curr.y + dy[dir];
       if (validatePoint(curY, curX)) {
-        if (arr[curY][curX] === 1 && curr.flag === 1) {
+        if (board[curY][curX] === 1 && curr.flag === 1) {
           if (visited[curY][curX][0] === 0) {
             queue.push({ y: curY, x: curX, flag: 0 });
             visited[curY][curX][0] = visited[curr.y][curr.x][1] + 1;
           }
         } else if (
-          arr[curY][curX] === 0 &&
+          board[curY][curX] === 0 &&
           visited[curY][curX][curr.flag] === 0
         ) {
           queue.push({ y: curY, x: curX, flag: curr.flag });
