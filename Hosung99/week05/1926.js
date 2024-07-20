@@ -10,17 +10,14 @@ const dx = [1, -1, 0, 0];
 const dy = [0, 0, 1, -1];
 
 function setInput() {
-  for (let i = 0; i < input.length; i++) {
-    input[i] = input[i].split(" ").map(Number);
-  }
+  input[0] = input[0].split(" ").map(Number);
   N = input[0][0];
   M = input[0][1];
-}
-
-function fillArr() {
+  input.shift();
   for (let y = 0; y < N; y++) {
+    input[y] = input[y].split(" ").map(Number);
     for (let x = 0; x < M; x++) {
-      arr[y][x] = input[y + 1][x];
+      arr[y][x] = input[y][x];
     }
   }
 }
@@ -70,7 +67,6 @@ function checkBfs() {
 
 function solution() {
   setInput();
-  fillArr();
   checkBfs();
   return areaCount + "\n" + areaSize;
 }
