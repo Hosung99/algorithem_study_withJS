@@ -1,10 +1,9 @@
 const fs = require("fs");
 
 const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
-let N, M;
+let N, M, arr;
 const stack = [];
 const visited = Array.from({ length: 501 }, () => Array(501).fill(false));
-const arr = Array.from({ length: 501 }, () => Array(501).fill(0));
 let [areaCount, areaSize] = [0, 0];
 const dx = [1, -1, 0, 0];
 const dy = [0, 0, 1, -1];
@@ -14,12 +13,7 @@ function setInput() {
   N = input[0][0];
   M = input[0][1];
   input.shift();
-  for (let i = 0; i < N; i++) {
-    input[i] = input[i].split(" ").map(Number);
-    for (let j = 0; j < M; j++) {
-      arr[i][j] = input[i][j];
-    }
-  }
+  arr = input.map((ele) => ele.split(" ").map(Number));
 }
 
 function validatePoint(curX, curY) {
