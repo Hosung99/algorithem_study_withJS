@@ -34,7 +34,7 @@ function bfs(Y, X) {
   stack.push({ y: Y, x: X });
   let tempSize = 0;
   while (stack.length) {
-    const curr = stack.pop();
+    const curr = stack.shift();
     tempSize++;
     for (let dir = 0; dir < 4; dir++) {
       const curX = curr.x + dx[dir];
