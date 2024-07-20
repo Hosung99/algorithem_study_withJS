@@ -37,6 +37,7 @@ function validatePoint(curX, curY) {
 
 function bfs(Y, X) {
   visited[Y][X] = true;
+  stack.push({ y: Y, x: X });
   let tempSize = 0;
   while (stack.length) {
     const curr = stack.pop();
@@ -57,7 +58,6 @@ function checkBfs() {
   for (let y = 0; y < N; y++) {
     for (let x = 0; x < M; x++) {
       if (arr[y][x] === 1 && !visited[y][x]) {
-        stack.push({ y: y, x: x });
         areaSize = Math.max(areaSize, bfs(y, x));
         areaCount++;
       }
