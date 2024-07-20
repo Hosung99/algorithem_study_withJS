@@ -3,24 +3,24 @@ const fs = require("fs");
 const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
 let N,
-  arr,
+  board,
   visited,
   maxHeight,
-  stack = [];
+  queue = [];
 let dx = [1, -1, 0, 0];
 let dy = [0, 0, 1, -1];
 
 function setInput() {
   N = +input[0];
   input.shift();
-  arr = input.map((ele) => ele.split(" ").map(Number));
+  board = input.map((ele) => ele.split(" ").map(Number));
 }
 
 function checkMaxHeight() {
   let tempHeight = 0;
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < N; j++) {
-      tempHeight = Math.max(tempHeight, arr[i][j]);
+      tempHeight = Math.max(tempHeight, board[i][j]);
     }
   }
   return tempHeight;
@@ -29,7 +29,7 @@ function checkMaxHeight() {
 function rainDrop(height) {
   for (let j = 0; j < N; j++) {
     for (let k = 0; k < N; k++) {
-      if (arr[j][k] <= height) {
+      if (board[j][k] <= height) {
         visited[j][k] = true;
       }
     }
@@ -47,15 +47,15 @@ function validatePoint(curY, curX) {
 }
 
 function bfs(Y, X) {
-  stack.push({ y: Y, x: X });
+  queue.push({ y: Y, x: X });
   visited[Y][X] = true;
-  while (stack.length) {
-    let curr = stack.shift();
+  while (queue.length) {
+    let curr = queue.shift();
     for (let dir = 0; dir < 4; dir++) {
       let curX = curr.x + dx[dir];
       let curY = curr.y + dy[dir];
       if (validatePoint(curY, curX)) {
-        stack.push({ y: curY, x: curX });
+        queue.push({ y: curY, x: curX });
         visited[curY][curX] = true;
       }
     }
@@ -66,7 +66,7 @@ function checkBfs(height) {
   let tempArea = 0;
   for (let j = 0; j < N; j++) {
     for (let k = 0; k < N; k++) {
-      if (arr[j][k] > height && !visited[j][k]) {
+      if (board[j][k] > height && !visited[j][k]) {
         bfs(j, k);
         tempArea++;
       }
