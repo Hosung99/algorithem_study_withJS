@@ -127,7 +127,11 @@ console.log(solution(input));
 | | | [안전 영역](https://www.acmicpc.net/problem/2468) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [연구소](https://www.acmicpc.net/problem/14502) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> |
 | | | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/> |
-
+| **week06**| 그리디 |
+| | | [주유소](https://www.acmicpc.net/problem/13305) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> |
+| | | [주식](https://www.acmicpc.net/problem/11501) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [신입사원](https://www.acmicpc.net/problem/1946) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
+| | | [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | <img src="https://static.solved.ac/tier_small/15.svg" height="25" align="center"/> |
 
 
 
