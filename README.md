@@ -132,6 +132,11 @@ console.log(solution(input));
 | | | [주식](https://www.acmicpc.net/problem/11501) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [신입사원](https://www.acmicpc.net/problem/1946) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | <img src="https://static.solved.ac/tier_small/15.svg" height="25" align="center"/> |
+| **week07**| 자료구조 |
+| | | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | <img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/> |
+| | | [N번째 큰 수](https://www.acmicpc.net/problem/2075) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [생태학](https://www.acmicpc.net/problem/4358) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [괄호의 값](https://www.acmicpc.net/problem/2504) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 
 
 
