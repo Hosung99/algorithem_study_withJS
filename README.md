@@ -137,6 +137,11 @@ console.log(solution(input));
 | | | [N번째 큰 수](https://www.acmicpc.net/problem/2075) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [생태학](https://www.acmicpc.net/problem/4358) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [괄호의 값](https://www.acmicpc.net/problem/2504) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| **week08**| 구현 |
+| | | [오목](https://www.acmicpc.net/problem/2615) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
+| | | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| | | [빗물](https://www.acmicpc.net/problem/14719) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| | | [사다리타기](https://www.acmicpc.net/problem/2469) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 
 
 
