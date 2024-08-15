@@ -142,6 +142,11 @@ console.log(solution(input));
 | | | [치킨 배달](https://www.acmicpc.net/problem/15686) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 | | | [빗물](https://www.acmicpc.net/problem/14719) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 | | | [사다리타기](https://www.acmicpc.net/problem/2469) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| **week09**| 누적합 |
+| | | [2차원 배열의 합](https://www.acmicpc.net/problem/2167) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> |
+| | | [출석체크](https://www.acmicpc.net/problem/20438) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
+| | | [피아노 체조](https://www.acmicpc.net/problem/21318) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
+| | | [점수따먹기](https://www.acmicpc.net/problem/1749) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> |
 
 
 
