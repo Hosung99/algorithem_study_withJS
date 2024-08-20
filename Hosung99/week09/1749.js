@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { CLIENT_RENEG_LIMIT } = require("tls");
 const filePath = process.platform === "linux" ? "/dev/stdin" : "test.txt";
 
 const input = fs.readFileSync(filePath).toString().trim().split("\n");
