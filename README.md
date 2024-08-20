@@ -147,6 +147,11 @@ console.log(solution(input));
 | | | [출석체크](https://www.acmicpc.net/problem/20438) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/> |
 | | | [피아노 체조](https://www.acmicpc.net/problem/21318) | <img src="https://static.solved.ac/tier_small/10.svg" height="25" align="center"/> |
 | | | [점수따먹기](https://www.acmicpc.net/problem/1749) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/> |
+| **week10**| 문자열 |
+| | | [크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | <img src="https://static.solved.ac/tier_small/6.svg" height="25" align="center"/> |
+| | | [한국이 그리울 땐 서버에 접속하지](https://www.acmicpc.net/problem/9996) | <img src="https://static.solved.ac/tier_small/8.svg" height="25" align="center"/> |
+| | | [ZOAC](https://www.acmicpc.net/problem/16719) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
+| | | [IPv6](https://www.acmicpc.net/problem/3107) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/> |
 
 
 
